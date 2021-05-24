@@ -35,6 +35,6 @@ for e in range(0, len(vertices)):
                 Grafo[aux] = int(aresta[2])# insere a aresta no formato (origem, destino) : peso
                 Grafo[aux_reverso] = int(aresta[2]) # insere a aresta no formato (destino, origem) : peso
             else:
-                print("A aresta (%s, %s) Já existe no grafo") % (aux[0], aux[1])
+                print("A aresta ({0}, {1}) Já existe no grafo".format(aux[0], aux[1]))
                 
 print(Grafo) 
