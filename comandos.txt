@@ -1,0 +1,39 @@
+if type(D[x]) is list: 
+
+my_dict.items() 
+my_dict.keys()   
+my_dict.values() 
+
+#Grafo com entarda para digitar uma quantidade de vértices
+#Dada a qtd de vértices, percorrer de 0 até o total, dando nome a cada um e salvando em uma lista
+#Criar um dicionário, onde cada vértice será uma chave e o valor será (vizinho, peso)
+#verificar se o grafo é hamiltoniano, se não for, já critica, se for, continua
+#encontrar o caminho mínimo percorrendo todos os caminhos possíveis a partir de um vértice 
+           #cada vértice possuirá seu caminho min, salvar todos os mins em uma lista e o menor caminho será o min dessa lista de mins 
+           
+for e in range (0, qtd_vertices):
+    print (e)
+    
+    print(aresta.index(aresta[0]))
+        print(aresta.index(aresta[2]))
+        
+print("b" in d["2"]) verifica se "b" é um valor da chave "2" mesmo que esteja dentro de uma tupla
+aresta = "A-B-2"
+#indice = aresta.find("2")
+
+aresta[aresta.index(aresta[0]) : aresta.index(aresta[2])]
+
+d = {
+    "1": "a",
+    "2": ("b", "f"),
+    "3": "c"
+}
+
+d.items() 
+d.keys()   
+d.values() 
+
+
+d["A"].append(('A-B', 2))
+d["A"].append(('A-C', 5))
+
