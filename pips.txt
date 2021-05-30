@@ -1,0 +1,3 @@
+pip install dijkstar
+pip install networkx
+python -m pip install -U matplotlib
