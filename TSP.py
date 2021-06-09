@@ -98,7 +98,7 @@ def encontraCicloHam():
 
     if e1.get() == '1':
         vertice_escolhido = e5.get()
-        print(vertice_escolhido)
+        #print(vertice_escolhido)
 
     if e1.get() == '2':
         vertice_escolhido = int(e5.get())
