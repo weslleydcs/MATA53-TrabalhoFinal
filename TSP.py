@@ -36,7 +36,7 @@ def ehCompleto():
             if key != yek: #se os vértices forem diferentes
                 if key not in graph.get_data()[yek].keys(): #e estes não tiverem uma aresta entre eles
                     return False #O grafo não é completo
-    return True #O grafo não é completo. Com isto, é possível encontrar um ciclo hamiltoniano
+    return True #O grafo é completo. Com isto, é possível encontrar um ciclo hamiltoniano
 
 #Função recursiva para encontrar todos os caminhos possíveis a partir de um vértice, mas sem voltar pra ele
 def find_all_paths_from(vertice, visitados):
